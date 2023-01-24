@@ -8,3 +8,17 @@ body{
 }
 
 /* SECTION Classes */
+
+
+
+/* SECTION IDs */
+
+#mainBox{
+  height: 70%;
+  width: 80%;
+  background-color: black;
+}
+
+#innerBox{
+  border: 2px solid white;
+}
