@@ -7,11 +7,6 @@ body{
   background-attachment: fixed;
 }
 
-br{
-  height: 2px;
-  width: 100%;
-}
-
 /* SECTION Classes */
 
 .filter-text{
@@ -26,6 +21,22 @@ br{
 .green{
   color: #00FF00;
 }
+.bg-green{
+  background-color: #00FF00;
+}
+
+.break{
+  height: 2px;
+  width: 110%;
+}
+
+.innerBoxRow{
+  border: 2px solid white;
+}
+
+.innerBoxRow:hover{
+  border: 2px solid #00FF00;
+}
 
 /* SECTION IDs */
 
@@ -38,3 +49,4 @@ br{
 #innerBox{
   border: 2px solid white;
 }
+
