@@ -7,9 +7,25 @@ body{
   background-attachment: fixed;
 }
 
+br{
+  height: 2px;
+  width: 100%;
+}
+
 /* SECTION Classes */
 
+.filter-text{
+  font-weight: bold;
+  background-color: black;
+}
 
+.active{
+  filter: invert(1);
+}
+
+.green{
+  color: #00FF00;
+}
 
 /* SECTION IDs */
 
